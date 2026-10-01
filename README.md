@@ -1,6 +1,6 @@
 # 🦖 恐龍大冒險 (Dino Adventure)
 
-🎮 **線上遊玩：** https://lingaoscar.github.io/dino-adventure/
+🎮 **線上遊玩：** https://lingaoscar.github.io/Html-DinoJump/
 
 這是一個使用 HTML5 Canvas、CSS3 和 JavaScript 開發的精美恐龍冒險遊戲。
 
@@ -13,7 +13,7 @@
 
 ## 🕹️ 直接遊玩
 
-不需安裝，直接開啟 [`index.html`](index.html)，或透過線上版：https://lingaoscar.github.io/dino-adventure/
+不需安裝，直接開啟 [`index.html`](index.html)，或透過線上版：https://lingaoscar.github.io/Html-DinoJump/
 
 ## 🚀 部署
 

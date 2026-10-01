@@ -33,4 +33,4 @@ doc/github-pages.md   # GitHub Pages 部署步驟
 
 ## 部署
 
-透過 GitHub Pages，從 `main` 分支根目錄部署，步驟見 [doc/github-pages.md](doc/github-pages.md)。線上版：https://lingaoscar.github.io/dino-adventure/
+透過 GitHub Pages，從 `main` 分支根目錄部署，步驟見 [doc/github-pages.md](doc/github-pages.md)。線上版：https://lingaoscar.github.io/Html-DinoJump/
