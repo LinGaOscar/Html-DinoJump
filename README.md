@@ -1,26 +1,29 @@
-# 🦖 恐龍大冒險 (Dino Adventure)
+<!-- 本檔由 /sync-docs 自動生成，請勿手動編輯——手改內容下次會被覆蓋。 -->
+# 恐龍大冒險 (Dino Adventure)
 
-🎮 **線上遊玩：** https://lingaoscar.github.io/Html-DinoJump/
+使用 HTML5 Canvas 開發的網頁恐龍跳躍遊戲，跳過仙人掌、挑戰高分。線上遊玩：https://lingaoscar.github.io/Html-DinoJump/
 
-這是一個使用 HTML5 Canvas、CSS3 和 JavaScript 開發的精美恐龍冒險遊戲。
+![系統畫面](docs/screenshot.png)
 
-## 🎮 遊戲玩法
-- 按 **空白鍵 (Space)** 或點擊「開始遊戲」按鈕開始。
-- 遊戲進行中按 **空白鍵** 或 **點擊畫面** 來跳躍，最多可連續跳兩次（雙跳）。
-- 避開前方出現的仙人掌障礙物，撞到就結束遊戲。
-- 隨著分數增加，障礙物移動速度會越來越快。
-- 每累積過一定數量的障礙物（10、20、30…遞增），會觸發 5 秒的「飛翔模式」彩蛋：畫面出現彩帶特效，並在期間無敵。
+## 玩法
+- 按空白鍵或點擊「開始遊戲」開始；遊戲中按空白鍵或點擊畫面跳躍，可雙跳。
+- 撞到仙人掌即結束，分數越高障礙物越快。
+- 每累積過 10、20、30… 個障礙物，觸發 5 秒無敵的「飛翔模式」彩蛋。
+- 最高分存於瀏覽器 `localStorage`。
 
-## 🕹️ 直接遊玩
+## 技術棧
+- 純靜態 HTML／CSS／Vanilla JavaScript，Canvas 2D API
+- 恐龍與仙人掌以向量繪製，無圖片素材
+- 字型：Google Fonts（Playfair Display、DM Mono）
 
-不需安裝，直接開啟 [`index.html`](index.html)，或透過線上版：https://lingaoscar.github.io/Html-DinoJump/
+## 快速開始
+直接用瀏覽器開啟 `index.html`，或執行 `python -m http.server` 後開啟 http://localhost:8000/。完整開發說明見 [docs/dev.md](docs/dev.md)。
 
-## 🚀 部署
-
-詳見 [doc/github-pages.md](doc/github-pages.md)。
-
-## ✨ 特色
-- **手繪風視覺**：恐龍與仙人掌皆以 Canvas 向量繪製（無外部圖片素材），搭配暖色調墨水插畫風格。
-- **響應式設計**：畫面依容器大小自動調整跳躍高度、重力與速度。
-- **本地紀錄**：最高分數會自動存入瀏覽器 `localStorage`。
-- **飛翔模式彩蛋**：連續過關到一定數量後觸發限時無敵飛行與彩帶特效。
+## 目錄結構
+```
+index.html          # 進入點：canvas + 開始/結束畫面 UI
+css/style.css       # 版面與視覺樣式
+js/script.js        # 全部遊戲邏輯
+doc/                # GitHub Pages 部署說明
+docs/               # 開發文件（dev.md）與系統截圖
+```
